@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.main {
+    border-radius: 50px;
+    padding: 40px;
+    background-color: white;
+    max-width: 500px;
+  
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 90px;
+}
+h1 {
+    text-transform: capitalize
+}
+.prep {
+    background-color: hsla(334, 81%, 20%, 0.205);
+    padding: 5px;
+    border-radius: 9px;  
+}
+h2,
+h3 {
+    text-transform: capitalize;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color: hsl(332, 51%, 32%);
+}
+.nut {
+    margin: 0;
+    color: hsl(332, 51%, 32%); 
+}
+li {
+    padding: 5px;
+    color:  hsl(30, 10%, 34%) ;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+img {
+    border-radius: 10px;
+}
+.container {
+   max-width: 400px;
+   color:  hsl(30, 10%, 34%) ;
+}
+.row {
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ins,
+ .ing {
+    border-bottom: 1px solid;
+}
+.row {
+    border-bottom: 1px solid;
+}
+p {
+    color: hsl(30, 10%, 34%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+      background-color: lightsalmon;
+      padding: 20px;
+      margin: 0;
+    }
+  
+  }
